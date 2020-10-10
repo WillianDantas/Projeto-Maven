@@ -1,7 +1,7 @@
 package edu.br.fas.service;
 
-// import edu.br.fas.persistence.FooDao;
+import edu.br.fas.persistence.FooDao;
 
 public class FooService {
-   // FooDao fooDao = new FooDao();
+  FooDao fooDao =  new FooDao();
 }
