@@ -1,7 +1,8 @@
 package edu.br.fas.persistence;
 
-//import edu.br.fas.service.FooService;
+import edu.br.fas.service.FooService;
 
 public class FooDao implements Dao {
-  //  FooService fooDao = new FooService();
+ 
+
 }
