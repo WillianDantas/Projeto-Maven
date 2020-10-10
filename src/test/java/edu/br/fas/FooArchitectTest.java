@@ -3,7 +3,7 @@ package edu.br.fas;
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import com.tngtech.archunit.lang.ArchRule;
-import com.tngtech.archunit.library.dependencies.Slice;
+
 
 import org.junit.Test;
 
@@ -12,6 +12,7 @@ import edu.br.fas.persistence.Dao;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.classes;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses;
 import static com.tngtech.archunit.library.dependencies.SlicesRuleDefinition.slices;
+import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 
 public class FooArchitectTest {
     JavaClasses importedClasses = new ClassFileImporter().importPackages("edu.br.fas");
@@ -19,7 +20,7 @@ public class FooArchitectTest {
 
 
     @Test
-    public void varificarDependenciaParaCamadaPrsistencia(){
+    public void varificarDependenciaParaCamadaPersistencia(){
             ArchRule rule = classes()
             .that().resideInAPackage("..persistence..")
             .should().onlyHaveDependentClassesThat().resideInAnyPackage("..persistence..", "..service..");
@@ -28,10 +29,10 @@ public class FooArchitectTest {
     }
 
     @Test
-    public void varificarDependenciaDaCamadaPrsistencia(){
+    public void varificarDependenciaDaCamadaPersistencia(){
             ArchRule rule = noClasses()
             .that().resideInAPackage("..persistence..")
-            .should().onlyHaveDependentClassesThat().resideInAnyPackage( "..service..");
+            .should().dependOnClassesThat().resideInAnyPackage( "..service..");
 
             rule.check(importedClasses);
     }
@@ -57,7 +58,17 @@ public class FooArchitectTest {
     @Test
     public void varificarDependenciasCiclicas(){
             ArchRule rule = slices()
-            .matching("br.edu.(*)..").should().beFreeOfCycles();
+            .matching("edu.br.fas.(*)..").should().beFreeOfCycles();
+
+            rule.check(importedClasses);
+    }
+
+    @Test
+    public void varificarViolcaoCamadas(){
+            ArchRule rule = layeredArchitecture()
+            .layer("Service").definedBy("..service..")
+            .layer("Persistence").definedBy("..persistence..")
+            .whereLayer("Persistence").mayOnlyBeAccessedByLayers("Service");
 
             rule.check(importedClasses);
     }
