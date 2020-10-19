@@ -7,43 +7,43 @@ Projeto Maven  do Bootcamp Arquitetura de software
 
 # Processo de  Engenharia de Requisitos
 
-**1)** Levantar os requisitos
-**2)** Entendê-los
-**3)** Documentá-los
-**4)** Controle de qualidade
+**1)** Levantar os requisitos <br/>
+**2)** Entendê-los <br/>
+**3)** Documentá-los <br/>
+**4)** Controle de qualidade <br/>
 
 ------------
 
-**I)** Concepção
-**II)** Elicitação
-**III)** Elaboração
-**IV)** Negociação
-**V)** Especificação
-**VI)** Validação
-**VII)** Gerencimento
+**I)** Concepção <br/>
+**II)** Elicitação <br/>
+**III)** Elaboração <br/>
+**IV)** Negociação <br/>
+**V)** Especificação <br/>
+**VI)** Validação <br/>
+**VII)** Gerencimento <br/>
 
 --------------
 **III)Elaboração** 
-- Diagramas de Caso de Uso
-- Diagramas de Bloco
-- Diagramas Paramétricos
-- Diagramas de Requisitos
-- Diagramas de Sequência
-- Diagramas de Máquina de Estados
+- Diagramas de Caso de Uso <br/>
+- Diagramas de Bloco <br/>
+- Diagramas Paramétricos <br/>
+- Diagramas de Requisitos <br/>
+- Diagramas de Sequência <br/>
+- Diagramas de Máquina de Estados <br/>
 
 **VI)Validação**
-Conceito de pronto e da uma entredad e ter uma saida esperada.
-Homologado pelo aceite do stakeholders
-Prototipagem
+Conceito de pronto e da uma entredad e ter uma saida esperada. <br/>
+Homologado pelo aceite do stakeholders <br/>
+Prototipagem <br/>
 
-Observação : As vezes horas de desenvolvimento são descataveis.
+Observação : As vezes horas de desenvolvimento são descataveis. <br/>
 
-**VII)Gerenciamento **
-Sistemas que aceite bem mundanças, está preparado para mundanção.
+**VII)Gerenciamento**
+Sistemas que aceite bem mundanças, está preparado para mundanção. <br/>
 
 # Levantamento  de Requisitos
 
-**1.** Primeira etapa importante do desenvolvimento de requisitos.
+**1.** Primeira etapa importante do desenvolvimento de requisitos. <br/>
 
 # Início de processo de Engenharia de Software
 
