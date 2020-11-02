@@ -52,3 +52,84 @@ Sistemas que aceite bem mundanças, está preparado para mundanção. <br/>
 # Lavantamento de Requisitos (Problemas)
 
 ![alt text](https://i.imgur.com/IEemMuO.png)
+
+<br/>
+
+**Modelagem ágil**
+- Não éuma metodologia de desenvolvimento ágil. 
+- Pode ser fazer uma modelagem ágil dentro de metodologia tradicionais.
+- E boa prática, não e uma metodologia com Scrum ou XP.
+- Ela visa construir e manter modelos de sistemas de maneiras eficaz e eficiente.
+
+
+**Engenharia de Requisitos em projetos ágeis.**
+2.2 - Documentação de requisitos em projetos ágeis. (Documentação ágel).
+
+
+**Documentação ágil**
+
+**Requisitos Funcionais** 
+
+[somente, quando, requer, se, obrigatoio, sempre]
+
+Exemplos de Requisitos funcionais:
+[RF001] O Sistema deve cadastra clientes (entrada).
+[RF002] O Sistema deve emitir um relatório de clientes (saída).
+[RF003] O Sistema deve passar um cliente da situação "em atendimento" para "atendido" quando o cliente terminar de ser atentido (mudança de estado).
+[RF004] O cliente pode consultar seus dados no sistema.
+
+**Classificação de Requisitos Funcionais**
+I)      Permanentes e transitótios
+II)     Evidentes e ocultos
+III)    Obrigatórios e desejados
+
+
+---------------------------------------
+
+**Requisitos não Funcionais** 
+
+Exemplos de Requisitos Não Funcionais
+* Utilização do módulo de Informações Cadastrais em modo off-line e
+* O sistema deve ser implementado na liguagem Java
+* O sistema deverá se comunicar com o banco SQL Server.
+* Um relatório de superrvisão deverá ser fornecido toda sexta-feira.
+* O sistema deve ser executável em qualquer plataforma.
+
+
+**Classificação de Requisitos não Funcionais**
+Obs: Atributos de qualidade.
+I)   Requisitos de Produtos
+- usuabilidade
+	1) Tempo para realizar um tarefa.
+2) Percetual de tarefa concluído.
+3) Percetual de tarefa concluído por unidade de tempo.
+4) Taxa de sucessos/falhas.
+5) Tempo consumidor com erros.
+6) Percetual de erros.
+7) Número de comandos utilizados.
+8) Número de comandos disponíveis não utilizados.
+9) Frequência de uso de ajuda (help) ou documentação.
+10) Número de vezes que o usuário expressa satisfação ou frustção.
+- manutenbilidade
+- confiabilidade
+- desempenho
+    1) Requisitos de resposta
+    2) Requisitos de processamento
+    3) Requisitos de temporização
+    4) Requisitos de espaço
+- portabilidade
+- reusabilidade
+- segurança
+
+II)  Requisitos de Processo
+III) Requisitos Externos
+
+
+![alt text](https://i.imgur.com/8NueU9n.jpg)
+
+------------
+
+
+http://www.bosontreinamentos.com.br/seguranca/o-que-e-salt-em-criptografia/
+
+https://medium.com/better-programming/modern-day-architecture-design-patterns-for-software-professionals-9056ee1ed977
