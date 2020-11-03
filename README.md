@@ -129,6 +129,39 @@ III) Requisitos Externos
 
 ------------
 
+**Modelo de Classificação FURPS+**
+
+- Functionality   (Funcionalidade)
+- Usability       (Usuabilidade)
+- Reliability     (Confiabilidade)
+- Performance     (Performace ou Desempenho)
+- Supportability  (Suportabilidade)
+- Plus            (+)
+
+**Requisitos de implementação**
+
+Um requisito de implementação especifica ou restringe o código ou a construção de um sistema.
+- Como exemplos, podemos citar:
+    1) padrões obrigatórios;
+    2) linguagens de implementação;
+    3) políticas de integridade de banco de dados;
+    4) limites de recursos;
+    5) ambientes operacionais;
+
+**Metas SMART**
+- specific   => Específico     (S)
+    deve ser clara, objetiva e detalhada para não haver margem para erros
+- mensurable => Mensurável     (M)
+    dever quantificável e capaz de ser medida
+- achievable => Alcançável     (A)
+    deve ser alcançável e desafiadora
+- relevante  => Relevante      (R)
+    deve causar algum impacti positivo
+- timed      => Temporal       (T)
+    deve ter prazo determinado
+
+----------
+
 
 http://www.bosontreinamentos.com.br/seguranca/o-que-e-salt-em-criptografia/
 
