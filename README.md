@@ -189,11 +189,17 @@ Nada mais é que um ou vários momento(s) específico(s) em que se inicia os pre
 -----------
 **Caso de Uso**
 - Extend
-<br />
+
+<br/>
+
 ![alt text](https://i.imgur.com/b8BcUAP.jpg)
 
-<br />
+<br/>
+
 - Include
+
+<br/>
+
 ![alt text](https://i.imgur.com/b8BcUAP.jpg)
  
 
