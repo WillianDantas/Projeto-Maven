@@ -204,3 +204,8 @@ http://www.bosontreinamentos.com.br/seguranca/o-que-e-salt-em-criptografia/
 **Modern-Day Architecture Design Patterns for Software Professionals*
 
 https://medium.com/better-programming/modern-day-architecture-design-patterns-for-software-professionals-9056ee1ed977
+
+** Caso de Uso **
+<b>Link:</b> https://app.diagrams.net/
+
+[Imgur](https://i.imgur.com/JjhZ2jB.jpg)
