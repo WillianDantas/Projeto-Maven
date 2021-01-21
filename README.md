@@ -189,10 +189,10 @@ Nada mais é que um ou vários momento(s) específico(s) em que se inicia os pre
 -----------
 **Caso de Uso**
 - Extend
-[Imgur](https://i.imgur.com/b8BcUAP.jpg)
+![alt text](https://i.imgur.com/b8BcUAP.jpg)
 
 - Include
-[Imgur](https://i.imgur.com/b8BcUAP.jpg)
+![alt text](https://i.imgur.com/b8BcUAP.jpg)
  
 
 Na hora que está logando estou incluindo as funcionalidades de pagar fatura ou ver saldo.
@@ -208,4 +208,4 @@ https://medium.com/better-programming/modern-day-architecture-design-patterns-fo
 **Caso de Uso**
 <b>Link:</b> https://app.diagrams.net/
 
-[Imgur](https://i.imgur.com/JjhZ2jB.jpg)
+![alt text](https://i.imgur.com/JjhZ2jB.jpg)
