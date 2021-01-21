@@ -162,7 +162,45 @@ Um requisito de implementação especifica ou restringe o código ou a construç
 
 ----------
 
+**Backlog Grooming**
+
+- Grooming (Refinement Global) => Preparar => Prparação do Backlog 
+Nada mais é que um ou vários momento(s) específico(s) em que se inicia os preparativos para o próximo sprint ou release.
+
+ Feature => Estorias das sprint(s)  gastar 5% to 10% of total sprint time.
+
+----------
+**UML (Unified Modeling Language)**
+- Permiye que você "desenhe" ua  "planta" de u sistema.
+- Aumentar a produtividade e otimizar as etapas que envolvem o desenvolviento de um projeto.
+
+* Diagrama de Objetos 
+* Diagrama de Sequência
+* Diagrama de Colaboração
+* Diagrama de Estados
+* Diagrama de Atividade
+* Diagrama de Componenetes
+* Diagrama de Caso de Uso
+* Diagrama de Classe
+
+<br />
+
+![alt text](https://i.imgur.com/IuiJINB.png)
+-----------
+**Caso de Uso**
+- Extend
+[Imgur](https://i.imgur.com/b8BcUAP.jpg)
+
+- Include
+[Imgur](https://i.imgur.com/b8BcUAP.jpg)
+ 
+
+Na hora que está logando estou incluindo as funcionalidades de pagar fatura ou ver saldo.
+
+**O que é Salt em criptografia**
 
 http://www.bosontreinamentos.com.br/seguranca/o-que-e-salt-em-criptografia/
+
+**Modern-Day Architecture Design Patterns for Software Professionals*
 
 https://medium.com/better-programming/modern-day-architecture-design-patterns-for-software-professionals-9056ee1ed977
