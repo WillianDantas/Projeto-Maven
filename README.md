@@ -1,6 +1,10 @@
 # Projeto-Maventatu
 Projeto Maven  do Bootcamp Arquitetura de software
 
+**Link**
+* https://app.diagrams.net/
+* https://imgur.com/
+* https://www.lucidchart.com/pages/pt
 
 # Arquitetura em camadas
 ![alt text](https://i.imgur.com/31JunpZ.png)
@@ -214,6 +218,9 @@ http://www.bosontreinamentos.com.br/seguranca/o-que-e-salt-em-criptografia/
 https://medium.com/better-programming/modern-day-architecture-design-patterns-for-software-professionals-9056ee1ed977
 
 **Caso de Uso**
-<b>Link:</b> https://app.diagrams.net/
 
 ![alt text](https://i.imgur.com/JjhZ2jB.jpg)
+
+
+**Diagrama de Classe**
+![alt text](https://i.imgur.com/Jl6UW7f.jpg)
